@@ -1,7 +1,6 @@
 /* Generics */
 nav {
-	background-color: #00A0DD;
-	opacity: 0.9;
+	background-color: rgba(188, 188, 188, 0.4);
 	z-index: 10;
 
 	/* Disable highlighting*/
@@ -24,15 +23,15 @@ nav {
 .nav-logo {
 	text-align: left;
 	text-decoration: none;
-	font-weight: 300;
-	color: #FFF;
+	font-weight: 500;
+	color: #000;
 	float: left;
 	pointer-events: none;
 }
 
 nav li a {
 	text-decoration: none;
-	color: #7AD9FE;
+	color: rgb(104, 104, 104);
 
 	/* Fancy hover */
 	transition: 0.3s;
@@ -151,6 +150,7 @@ nav li a:hover, nav li a:active {
 @media only screen and (max-width: 480px){
 	nav {
 		height: auto;
+		font-weight: 500;
 	}
 
 	.nav-up {
@@ -166,7 +166,11 @@ nav li a:hover, nav li a:active {
 	}
 
 	nav li:nth-child(odd) {
-		background-color: #07BAFF;
+		background-color: rgba(188, 188, 188, 0.4);
+	}
+
+	nav li a {
+		font-weight: 300;
 	}
 
 	nav ul {
@@ -179,12 +183,16 @@ nav li a:hover, nav li a:active {
 		text-indent: 25px;
 	}
 
+	nav a:nth-child(odd) {
+		color: rgb(104,104,104);
+	}
+
 	nav a#pull {
 		display: inline-block;
 		width: 100%;
 		position: relative;
 		text-decoration: none;
-		color: #FFF;
+		color: #000;
 		padding: 10px 0px 15px 0px;
 	}
 
