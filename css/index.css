@@ -1,0 +1,56 @@
+body {
+	/*background: url("../images/global/index.jpg") no-repeat center center fixed;*/
+  	background-size: cover;
+  	overflow: hidden;
+}
+
+overlay {
+	background-color: rgba(1, 116, 160, 0.6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+}
+
+overlay h1 {
+	font: normal 500% 'Arvo', serif;
+	font-weight: 600;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+
+@media only screen and (min-width: 960px) {
+
+}
+
+/* Normal */
+@media only screen and (min-width: 40em){
+
+
+}
+
+/* Responsive for 40em */
+@media only screen and (max-width: 40em){
+overlay h1 {
+	font: normal 300% 'Arvo', serif;
+}
+
+}
+
+/* Responsive for phones */
+@media only screen and (max-width: 480px){
+overlay h1 {
+	font: normal 200% 'Arvo', serif;
+}
+
+}
