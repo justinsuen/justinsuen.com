@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <link rel="stylesheet" type="text/css" href="css/nav.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
-    <!--Script for scroll-hide nav bar//commented for blocking-->
-    <!-- <script type="text/javascript" src="js/nav-scroll.js"></script> -->
+    <!--Script for scroll-hide nav bar-->
+    <script type="text/javascript" src="js/nav-scroll.js"></script>
 
-    <!--Script for mobile nav bar//commented for blocking-->
-    <!-- <script type="text/javascript" src="js/nav-phone.js"></script> -->
+    <!--Script for mobile nav bar-->
+    <script type="text/javascript" src="js/nav-phone.js"></script>
+
 </head>
 <nav class="nav-down">
     <!--Regular nav bar-->
@@ -32,21 +33,4 @@
         <h1>Coming Soon...</h1> 
     </overlay>
 </body>
-
-<script type="text/javascript">
-    function downloadJSAtOnload() {
-        var element = document.createElement("script");
-        element.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js";
-        document.body.appendChild(element);
-        element.src = "js/nav-phone.js";
-        document.body.appendChild(element);
-        element.src = "js/nav-scroll.js";
-        document.body.appendChild(element);
-    }
-    if (window.addEventListener)
-        window.addEventListener("load", downloadJSAtOnload, false);
-    else if (window.attachEvent)
-        window.attachEvent("onload", downloadJSAtOnload);
-    else window.onload = downloadJSAtOnload;
-</script>
 </html>
