@@ -1,6 +1,6 @@
 /* Generics */
 nav {
-	background-color: rgba(188, 188, 188, 0.4);
+	background-color: rgb(230, 230, 230);
 	z-index: 10;
 
 	/* Disable highlighting*/
@@ -26,7 +26,10 @@ nav {
 	font-weight: 500;
 	color: #000;
 	float: left;
-	pointer-events: none;
+}
+
+.nav-logo a{
+	color: #000;
 }
 
 nav li a {
@@ -55,7 +58,7 @@ nav li a:hover, nav li a:active {
 
 @media only screen and (min-width: 960px) {
 	nav ul {
-		width: 70%;
+		width: 80%;
 		margin: 0px auto;
 	}
 
@@ -176,6 +179,7 @@ nav li a:hover, nav li a:active {
 	nav ul {
 		display: none;
 		height: auto;
+		width: 100%;
 	}
 
 	nav a {
