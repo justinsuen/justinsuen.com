@@ -202,7 +202,7 @@ nav li a:hover, nav li a:active {
 
 	nav a#pull:after {
 		content: "";
-		background: url('../images/global/open-filters.svg') no-repeat;
+		background: url('../assets/images/global/open-filters.svg') no-repeat;
 		width: 30px;
 		height: 30px;
 		background-size: cover;
