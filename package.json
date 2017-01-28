@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "node-sass -w assets/styles/scss/ -o  assets/styles/css/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "lodash": "^4.17.4",
+    "node-sass": "^4.4.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-redux": "^5.0.1",
