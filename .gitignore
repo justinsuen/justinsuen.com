@@ -1,8 +1,2 @@
 .DS_Store
-*.sass
-.sass-cache
-
-node_modules/
-
-bundle.js
-bundle.js.map
+__pycache__
