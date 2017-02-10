@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block content %}
+    <section id="about">
+        <div class="container">
+            <div class="box first">
+                {% for text in about %}
+                    <h4>{{ text.description|safe }}</h4>
+                    <hr>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="box first">
+                <div class="row">
+                    {% for project in projects %}
+                        <div class="col-md-4 col-sm-6">
+                            <div class="center">
+                                {% if project.code %}
+                                    {{ project.code | safe }}
+                                {% endif %}
+                                {% if project.link %}
+                                    <a target="_blank" href="{{ project.link }}" class="{{ project.icon_class }}"></a>
+                                    <h4><a target="_blank" href="{{ project.link }}">{{ project.name }}</a></h4>
+                                {% else %}
+                                    <h4>{{ project.name }}</h4>
+                                {% endif %}
+                                <p>{{ project.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
