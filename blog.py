@@ -1,7 +1,6 @@
 import codecs
 import os
 
-
 # This function takes a directory, then constructs a dict with all of the relevant blog post info
 # for every single markdown file within that directory.
 def construct_blog_posts(path):

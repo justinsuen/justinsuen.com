@@ -6,6 +6,7 @@ from blog import construct_blog_posts
 from flaskext.markdown import Markdown
 
 application = Flask(__name__)
+application.config['TEMPLATES_AUTO_RELOAD'] = True
 
 # Enabling markdown allows us to write prettier blog posts
 Markdown(application)

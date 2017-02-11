@@ -1,9 +1,9 @@
 # TODO: Fill in meta tags.
 meta = {
-    "title": "",
-    "author": "",
-    "description": "",
-    "url": "",
+    "title": "I am Justin Suen",
+    "author": "Justin Suen",
+    "description": "Welcome to Justin Suen's portfolio!",
+    "url": "http://www.justinsuen.com",
     "icon_path": "",
     "keywords": ""
 }
