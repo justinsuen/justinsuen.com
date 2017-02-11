@@ -28,21 +28,15 @@
 </head>
 
 <body>
-  <!-- Navigation template for every single page -->
-  <nav class="navbar">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">Justin Suen</a>
-    </div>
+  <nav id="navbar">
+    <a class="navbar-brand" href="index.html">Justin Suen</a>
 
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        {% for nav in navigation %}
-        <li><a href="{{ nav.link }}">{{ nav.name }}</a></li>
-        {% endfor %}
-      </ul>
+    <div class="navbar-links">
+      {% for nav in navigation %}
+      <a href="{{ nav.link }}" class="navbar-item">{{ nav.name }}</a>
+      {% endfor %}
     </div>
   </nav>
-  <div class="banner"></div>
   {% block content %} {% endblock %}
 </body>
 

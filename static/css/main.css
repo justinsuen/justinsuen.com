@@ -1,1 +1,98 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  width: 100vw;
+  padding: 70px 60px 0 60px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-brand {
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#splash {
+  position: fixed;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-container {
+  width: 80vw;
+}
+
+.splash-container h1 {
+  font-weight: 700;
+  font-size: 4em;
+  margin-bottom: 40px;
+}
+
+.splash-container h3 {
+  font-weight: 500;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.splash-container span {
+  color: rgb(34, 155, 232);
+}
+
+#about {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
