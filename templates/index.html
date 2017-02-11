@@ -1,37 +1,32 @@
 {% extends "layout.html" %} {% block content %}
-<div class="jumbotron">
-  <div class="container">
+<section id="splash">
+  <div class="splash-container">
     <h1>Hi, my name is Justin Suen.</h1>
     <p>I build visual, user interactive software.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+    <p><a class="btn" href="#">Learn more</a></p>
   </div>
-</div>
+</section>
 <section id="about">
-  <div class="container">
-    <div class="box first">
+  <div class="about-container">
       {% for text in about %}
       <h4>{{ text.description|safe }}</h4>
-      <hr> {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>
 <section id="projects">
-  <div class="container">
-    <div class="box first">
-      <div class="row">
-        {% for project in projects %}
-        <div class="col-md-4 col-sm-6">
-          <div class="center">
-            {% if project.code %} {{ project.code | safe }} {% endif %} {% if project.link %}
-            <a target="_blank" href="{{ project.link }}" class="{{ project.icon_class }}"></a>
-            <h4><a target="_blank" href="{{ project.link }}">{{ project.name }}</a></h4> {% else %}
-            <h4>{{ project.name }}</h4> {% endif %}
-            <p>{{ project.description }}</p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
+  <div class="project-container">
+    {% for project in projects %}
+    <div class="project-item">
+      {% if project.code %} {{ project.code | safe }} {% endif %}
+      {% if project.link %}
+        <a target="_blank" href="{{ project.link }}" class="{{ project.icon_class }}"></a>
+        <h4><a target="_blank" href="{{ project.link }}">{{ project.name }}</a></h4> {% else %}
+        <h4>{{ project.name }}</h4>
+      {% endif %}
+      <p>{{ project.description }}</p>
     </div>
+    {% endfor %}
   </div>
 </section>
 {% endblock %}

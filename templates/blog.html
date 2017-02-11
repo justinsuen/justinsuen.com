@@ -2,10 +2,10 @@
 <!-- Blog post template. Each post is written in markdown and placed as a separate file in
          static/assets/posts. Happy blogging! -->
 <script src="static/js/toggle.js"></script>
-{% for post in blog_posts %}
 <section id="blog">
-  <div class="container">
-    <div class="box first">
+  <div class="blog-container">
+    {% for post in blog_posts %}
+    <div class="blog-item">
       <h3>
         <a href="blog#{{ post.id }}" id="blog-title" onclick="toggle('{{ post.id }}')">
           <b>{{post.date}} - {{ post.title }}</b>
@@ -16,6 +16,7 @@
         <hr>
       </div>
     </div>
+    {% endfor %}
   </div>
 </section>
-{% endfor %} {% endblock %}
+{% endblock %}
