@@ -1,8 +1,8 @@
 # TODO: Fill in meta tags.
 meta = {
-    "title": "I am Justin Suen",
+    "title": "Justin Suen | Software Engineer",
     "author": "Justin Suen",
-    "description": "Welcome to Justin Suen's portfolio!",
+    "description": "Justin Suen's personal web portfolio",
     "url": "http://www.justinsuen.com",
     "icon_path": "",
     "keywords": ""
@@ -11,16 +11,24 @@ meta = {
 # TODO: Make additional links in nav-bar here.
 nav = [
     {
+        "name": "about",
+        "link": "index.html#about"
+    },
+    {
         "name": "projects",
         "link": "index.html#projects"
     },
     {
-        "name": "blog",
-        "link": "blog",
+        "name": "contact",
+        "link": "index.html#contact"
     },
     {
         "name": "resume",
         "link": "resume"
+    },
+    {
+        "name": "blog",
+        "link": "blog"
     }
 ]
 
