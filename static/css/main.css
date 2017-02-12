@@ -1,5 +1,5 @@
 /* Colors
-Main blue: rgb(34, 155, 232);
+Main blue: #229BE8;
 Dark gray: #424242;
 Light gray: #757575;
 Navbar green: #00D12E;
@@ -35,20 +35,23 @@ a {
   z-index: 10;
 
   width: 100vw;
-  padding: 70px 60px 0 60px;
+  padding: 50px 60px 30px 60px;
   box-sizing: border-box;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+
+  background-color: white;
+  border-bottom: 1px solid #F0F0F0;
 }
 
 .navbar-brand {
   padding: 10px 20px;
   font-size: 1.5em;
   font-weight: 700;
-  color: rgb(34, 155, 232);
+  color: #229BE8;
 }
 
 .navbar-links {
@@ -116,7 +119,38 @@ a {
 }
 
 .splash-container span {
-  color: rgb(34, 155, 232);
+  color: #229BE8;
+}
+
+.splash-container .presence-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.splash-container .presence-container a.presence-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-right: 20px;
+  padding: 10px 10px 10px 0;
+
+  font-size: 1.3em;
+  color: black;
+}
+
+.presence-item i {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.splash-container .presence-container a.presence-item:hover {
+  color: #00D12E;
+  transition: color 0.3s ease;
 }
 
 #about {
@@ -127,7 +161,23 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  box-sizing: border-box;
+}
+
+.about-container {
+  width: 80vw;
+  padding-top: 200px;
+  height: 100%;
+}
+
+.about-container h1 {
+  font-weight: 700;
+  font-size: 4.2em;
+  margin-bottom: 40px;
+}
+
+.about-container span {
+  color: #229BE8;
 }
 
 #projects {
@@ -138,5 +188,20 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+}
+
+.project-container {
+  width: 80vw;
+  padding-top: 200px;
+  height: 100%;
+}
+
+.project-container h1 {
+  font-weight: 700;
+  font-size: 4.2em;
+  margin-bottom: 40px;
+}
+
+.project-container span {
+  color: #229BE8;
 }

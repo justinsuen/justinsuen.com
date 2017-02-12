@@ -1,9 +1,10 @@
 from flask import Flask
 from flask import render_template
 
+from flaskext.markdown import Markdown
+
 import info
 from blog import construct_blog_posts
-from flaskext.markdown import Markdown
 
 application = Flask(__name__)
 application.config['TEMPLATES_AUTO_RELOAD'] = True
@@ -17,6 +18,7 @@ Markdown(application)
 layout_args = {
     "meta": info.meta,
     "navigation": info.nav,
+    "splash": info.splash
 }
 
 

@@ -4,29 +4,35 @@
     <h1>Hi, my name is <span>Justin Suen.</span></h1>
     <h3>I am a <span>Software Engineer</span> with a strong interest in Data Visualization.</h3>
     <h3>I build practical and visual software to educate and make life easier.</h3>
-  </div>
-</section>
-<section id="about">
-  <div class="about-container">
-      {% for text in about %}
-      <h4>{{ text.description | safe }}</h4>
+    <div class="presence-container">
+      {% for presence in splash %}
+        <a class="presence-item" href="{{ presence.link }}"><i class="{{ presence.icon }}"></i>{{ presence.name }}</a>
       {% endfor %}
     </div>
   </div>
 </section>
+<section id="about">
+  <div class="about-container">
+    <h1>About <span>me.</span></h1>
+    {% for text in about %}
+      <h4>{{ text.description | safe }}</h4>
+    {% endfor %}
+  </div>
+</section>
 <section id="projects">
   <div class="project-container">
+    <h1>Projects.</h1>
     {% for project in projects %}
-    <div class="project-item">
-      {% if project.code %} {{ project.code | safe }} {% endif %}
-      {% if project.link %}
-        <a target="_blank" href="{{ project.link }}" class="{{ project.icon_class }}"></a>
-        <h4><a target="_blank" href="{{ project.link }}">{{ project.name }}</a></h4>
-      {% else %}
-        <h4>{{ project.name }}</h4>
-      {% endif %}
-      <p>{{ project.description }}</p>
-    </div>
+      <div class="project-item">
+        {% if project.code %} {{ project.code | safe }} {% endif %}
+        {% if project.link %}
+          <a href="{{ project.link }}" class="{{ project.icon_class }}"></a>
+          <h4><a href="{{ project.link }}">{{ project.name }}</a></h4>
+        {% else %}
+          <h4>{{ project.name }}</h4>
+        {% endif %}
+        <p>{{ project.description }}</p>
+      </div>
     {% endfor %}
   </div>
 </section>

@@ -8,19 +8,37 @@ meta = {
     "keywords": ""
 }
 
+splash = [
+    {
+        "name": "GitHub",
+        "link": "https://www.github.com/justinsuen",
+        "icon": "fa fa-github"
+    },
+    {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/justin-suen",
+        "icon": "fa fa-linkedin-square"
+    },
+    {
+        "name": "Email",
+        "link": "mailto:jsuen27@gmail.com",
+        "icon": "fa fa-envelope-o"
+    }
+]
+
 # TODO: Make additional links in nav-bar here.
 nav = [
     {
         "name": "about",
-        "link": "index.html#about"
+        "link": "#about"
     },
     {
         "name": "projects",
-        "link": "index.html#projects"
+        "link": "#projects"
     },
     {
         "name": "contact",
-        "link": "index.html#contact"
+        "link": "#contact"
     },
     {
         "name": "resume",
