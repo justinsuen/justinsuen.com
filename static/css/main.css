@@ -2,6 +2,7 @@
 Main blue: rgb(34, 155, 232);
 Dark gray: #424242;
 Light gray: #757575;
+Navbar green: #00D12E;
 */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
@@ -63,6 +64,29 @@ a {
   margin-right: 30px;
   font-weight: 500;
   color: #757575;
+  transition: color 1s ease;
+
+  display: inline-block;
+	position: relative;
+}
+
+.navbar-links a:hover, .navbar-links a.active {
+  color: #00D12E;
+  transition: color .5s ease;
+}
+
+.navbar-links a:after, .navbar-links a.active:after {
+	content: '';
+	display: block;
+	margin-top: 3px;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .3s ease, background-color .3s ease;
+}
+.navbar-links a:hover:after, .navbar-links a.active:after {
+	width: 100%;
+	background: #00D12E;
 }
 
 #splash {
@@ -103,6 +127,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: red;
 }
 
 #projects {
@@ -113,4 +138,5 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: blue;
 }
