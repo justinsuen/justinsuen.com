@@ -62,38 +62,48 @@ about = [
 #       For layout purposes, the code field is optional.
 projects = [
     {
+        "id": "proj1",
         "link": "http://www.chartesian.com",
         "icon_class": "",
         "name": "Chartesian",
         "description": "Single-page application for data visualization and dynamic charting",
+        "image": "static/images/projects/chartesian-build.png",
         "code": ""
     },
     {
+        "id": "proj2",
         "link": "http://www.shiparoo.us",
         "icon_class": "",
         "name": "Shiparoo",
         "description": "Elegant web and mobile package tracking application with realtime SMS updates",
+        "image": "static/images/projects/chartesian-build.png",
         "code": ""
     },
     {
+        "id": "proj3",
         "link": "",
         "icon_class": "",
         "name": "Cafe Hub",
         "description": "Automated employee scheduling system built for a simple user experience",
+        "image": "static/images/projects/chartesian-build.png",
         "code": ""
     },
     {
+        "id": "proj4",
         "link": "http://www.justinsuen.com/projects/visualgos",
         "icon_class": "",
         "name": "VisuAlgos",
         "description": "Interactive visualizer for various path-finding algorithms",
+        "image": "static/images/projects/chartesian-build.png",
         "code": ""
     },
     {
+        "id": "proj5",
         "link": "http://www.github.com/justinsuen/kidney",
         "icon_class": "",
         "name": "Kidney Donation Exchange",
         "description": "A solver to pair kidney donors with recipients under constraints",
+        "image": "static/images/projects/chartesian-build.png",
         "code": ""
     }
 ]

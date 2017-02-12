@@ -1,7 +1,10 @@
 /* Colors
 Main blue: #229BE8;
+Link blue: #1977B3;
+Link hover blue: #75D0ED;
 Dark gray: #424242;
 Light gray: #757575;
+Lightest gray: #E2E2E2;
 Navbar green: #00D12E;
 */
 
@@ -44,7 +47,7 @@ a {
   justify-content: flex-start;
 
   background-color: white;
-  border-bottom: 1px solid #F0F0F0;
+  border-bottom: 1px solid #E2E2E2;
 }
 
 .navbar-brand {
@@ -141,6 +144,7 @@ a {
 
   font-size: 1.3em;
   color: black;
+  transition: color 0.3s ease;
 }
 
 .presence-item i {
@@ -182,7 +186,6 @@ a {
 
 #projects {
   width: 100vw;
-  height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -190,18 +193,90 @@ a {
   align-items: center;
 }
 
-.project-container {
+.projects-container {
   width: 80vw;
   padding-top: 200px;
   height: 100%;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.project-container h1 {
+.projects-container h1 {
   font-weight: 700;
   font-size: 4.2em;
   margin-bottom: 40px;
 }
 
-.project-container span {
+.projects-container span {
   color: #229BE8;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row;
+
+  margin: 30px 0;
+  padding: 30px;
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border: 1px solid #E2E2E2;
+  transition: border 0.3s ease;
+}
+
+.project-item:hover {
+  border: 1px solid #757575;
+  transition: border 0.3s ease;
+}
+
+.project-item-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 60%;
+}
+
+.project-item-img img {
+  width: 100%;
+}
+
+.project-item-description {
+  padding: 0 30px;
+  width: 40%;
+}
+
+.project-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin-bottom: 15px;
+}
+
+.project-item-header h2 {
+  font-size: 2.5em;
+}
+
+.project-item-header a {
+  color: #1977B3;
+  transition: color 0.3s ease;
+}
+
+.project-item-header a:hover {
+  color: #75D0ED;
+  transition: color 0.3s ease;
+}
+
+.project-item-description p {
+  font-size: 1.2em;
 }
