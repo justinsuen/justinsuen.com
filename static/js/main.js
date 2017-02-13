@@ -8,12 +8,13 @@ jQuery(document).ready(function($) {
       }
     });
 
+    // Get background overlay to change color
     if ($("#splash").position().top <= windscroll + 150) {
       $(".overlay").css('background-color', 'transparent');
       $("#navbar").css('padding', '50px 60px 30px 60px');
     }
 
-    if ($("#about").position().top <= windscroll + 150) {
+    if ($("#about").position().top <= windscroll + 400) {
       $("#navbar").css('padding', '10px 60px');
       $(".overlay").css('background-color', 'blue');
     }
