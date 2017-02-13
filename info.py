@@ -62,7 +62,7 @@ about = [
 #       For layout purposes, the code field is optional.
 projects = [
     {
-        "id": "proj1",
+        "id": "proj-chart",
         "link": "http://www.chartesian.com",
         "github": "https://www.github.com/justinsuen/chartesian",
         "icon_class": "",
@@ -74,7 +74,7 @@ projects = [
         "code": ""
     },
     {
-        "id": "proj2",
+        "id": "proj-ship",
         "link": "http://www.shiparoo.us",
         "github": "https://github.com/DanielLChang/Shiparoo",
         "github2": "https://github.com/justinsuen/shiparoo-ios",
@@ -87,18 +87,7 @@ projects = [
         "code": ""
     },
     {
-        "id": "proj3",
-        "link": "",
-        "icon_class": "",
-        "name": "Cafe Hub",
-        "tagline": "Automated employee scheduling system built for a simple user experience",
-        "image": "static/images/projects/visualgos/astar.png",
-        "des": ["I am currently working with UC Berkeley Educational Technology Services to redesign one of the most important operations of the organization: employee scheduling.",
-                "With Cafe Hub, gone are the days of spreadsheet scheduling!"],
-        "code": ""
-    },
-    {
-        "id": "proj4",
+        "id": "proj-algo",
         "link": "http://www.justinsuen.com/projects/visualgos",
         "github": "https://www.github.com/justinsuen/visualgos",
         "icon_class": "",
@@ -107,6 +96,17 @@ projects = [
         "image": "static/images/projects/visualgos/astar.png",
         "des": ["While learning algorithms, I found that visual representations are often the easiest way for me to understand a concept.",
                 "With simple JavaScript and engaging jQuery and CSS, I built VisuAlgos to educate others on how common graph algorithms operate."],
+        "code": ""
+    },
+    {
+        "id": "proj-cafe",
+        "link": "",
+        "icon_class": "",
+        "name": "Cafe Hub",
+        "tagline": "Automated employee scheduling system built for a simple user experience",
+        "image": "static/images/projects/visualgos/astar.png",
+        "des": ["I am currently working with UC Berkeley Educational Technology Services to redesign one of the most important operations of the organization: employee scheduling.",
+                "With Cafe Hub, gone are the days of spreadsheet scheduling!"],
         "code": ""
     }
 ]
