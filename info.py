@@ -69,8 +69,7 @@ projects = [
         "name": "Chartesian",
         "tagline": "Single-page application for data visualization and dynamic charting",
         "image": "static/images/projects/chartesian/build.png",
-        "des": ["As the sole developer, I had the liberty to determine both the design and tech stack of Chartesian.",
-                "I envisioned a minimalistic site with intuitive tools, allowing for a simple, yet engaging user experience.",
+        "des": ["As the sole developer, I had the liberty to determine both the design and tech stack of Chartesian. I constructed a minimalistic site with intuitive tools, allowing for a simple, yet engaging user experience.",
                 "For the backend, I used Ruby on Rails with PostgreSQL. To manage state efficiently, I used React and Redux for the frontend."],
         "code": ""
     },
@@ -81,9 +80,10 @@ projects = [
         "github2": "https://github.com/justinsuen/shiparoo-ios",
         "icon_class": "",
         "name": "Shiparoo",
-        "tagline": "Elegant web and mobile package tracking application with realtime SMS updates",
+        "tagline": "Elegant web and mobile package tracking with realtime SMS updates",
         "image": "static/images/projects/shiparoo/splash.png",
-        "des": [],
+        "des": ["Working in a team of three, we built Shiparoo with a focus on simplicity and functionality. We built Shiparoo on Rails with PostgreSQL, React, Redux, and React Native for iOS.",
+                "My main responsibilities included user authentication, mobile API calls, and cross-platform styling."],
         "code": ""
     },
     {
@@ -93,7 +93,8 @@ projects = [
         "name": "Cafe Hub",
         "tagline": "Automated employee scheduling system built for a simple user experience",
         "image": "static/images/projects/visualgos/astar.png",
-        "des": [],
+        "des": ["I am currently working with UC Berkeley Educational Technology Services to redesign one of the most important operations of the organization: employee scheduling.",
+                "With Cafe Hub, gone are the days of spreadsheet scheduling!"],
         "code": ""
     },
     {
@@ -104,7 +105,8 @@ projects = [
         "name": "VisuAlgos",
         "tagline": "Interactive visualizer for various path-finding algorithms",
         "image": "static/images/projects/visualgos/astar.png",
-        "des": [],
+        "des": ["While learning algorithms, I found that visual representations are often the easiest way for me to understand a concept.",
+                "With simple JavaScript and engaging jQuery and CSS, I built VisuAlgos to educate others on how common graph algorithms operate."],
         "code": ""
     }
 ]

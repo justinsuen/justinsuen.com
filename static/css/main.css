@@ -8,7 +8,7 @@ Lightest gray: #E2E2E2;
 Navbar green: #00D12E;
 */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400');
 
 html, body, h1, h2, h3, h4, h5, h6, p, a, div {
   margin: 0;
@@ -283,13 +283,14 @@ a {
 
 .project-item-description h3 {
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 20px;
   color: #757575;
 }
 
 .project-item-description p {
   font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
   font-size: 1.2em;
   line-height: 1.5em;
   margin-bottom: 15px;
@@ -302,7 +303,7 @@ a {
 
   margin-right: 15px;
   padding: 10px;
-  
+
   background-color: #1977B3;
   color: white;
   transition: background-color 0.3s ease;
