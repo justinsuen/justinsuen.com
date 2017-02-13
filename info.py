@@ -104,7 +104,7 @@ projects = [
         "icon_class": "",
         "name": "Cafe Hub",
         "tagline": "Automated employee scheduling system built for a simple user experience",
-        "image": "static/images/projects/visualgos/astar.png",
+        "image": "static/images/projects/cafehub/soon.png",
         "des": ["I am currently working with UC Berkeley Educational Technology Services to redesign one of the most important operations of the organization: employee scheduling.",
                 "With Cafe Hub, gone are the days of spreadsheet scheduling!"],
         "code": ""
