@@ -16,14 +16,14 @@ jQuery(document).ready(function($) {
 
     if ($("#about").position().top <= windscroll + 400) {
       $("#navbar").css('padding', '10px 60px');
-      $(".overlay").css('background-color', '#74C9FF');
+      $(".overlay").css('background-color', '#B8F2FF');
     }
 
     if ($("#projects").position().top <= windscroll + 150)
       $(".overlay").css('background-color', '#B5FF75');
 
     if ($("#contact").position().top <= windscroll + 150)
-      $(".overlay").css('background-color', '#FFF494');
+      $(".overlay").css('background-color', '#FEF284');
   });
 
   $('a.smoothscroll').click(function() {
