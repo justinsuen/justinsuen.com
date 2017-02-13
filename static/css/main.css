@@ -10,6 +10,8 @@ Navbar green: #00D12E;
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400');
 
+/*Global styles*/
+
 html, body, h1, h2, h3, h4, h5, h6, p, a, div {
   margin: 0;
   padding: 0;
@@ -31,6 +33,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 a {
   text-decoration: none;
 }
+
+/*Navbar*/
 
 #navbar {
   position: fixed;
@@ -95,6 +99,8 @@ a {
 	background: #00D12E;
 }
 
+/*Landing section*/
+
 #splash {
   width: 100vw;
   height: 100vh;
@@ -125,7 +131,7 @@ a {
   color: #229BE8;
 }
 
-.splash-container .presence-container {
+.presence-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -134,7 +140,7 @@ a {
   margin-top: 30px;
 }
 
-.splash-container .presence-container a.presence-item {
+.presence-container a.presence-item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -152,10 +158,12 @@ a {
   font-size: 1.5em;
 }
 
-.splash-container .presence-container a.presence-item:hover {
+.presence-container a.presence-item:hover {
   color: #00D12E;
   transition: color 0.3s ease;
 }
+
+/*About section*/
 
 #about {
   width: 100vw;
@@ -183,6 +191,8 @@ a {
 .about-container span {
   color: #229BE8;
 }
+
+/*Projects section*/
 
 #projects {
   width: 100vw;
@@ -322,4 +332,36 @@ a {
 .project-item-description a.proj-learn:hover {
   background-color: #75D0ED;
   transition: background-color 0.3s ease;
+}
+
+/*Contact section*/
+#contact {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  width: 80vw;
+}
+
+.contact-container h1 {
+  font-weight: 700;
+  font-size: 4.2em;
+  margin-bottom: 40px;
+}
+
+.contact-container span {
+  color: #229BE8;
+}
+
+.contact-container h3 {
+  font-weight: 500;
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
