@@ -88,7 +88,7 @@ projects = [
     },
     {
         "id": "proj-algo",
-        "link": "http://www.justinsuen.com/projects/visualgos",
+        "link": "https://visualgos.herokuapp.com/",
         "github": "https://www.github.com/justinsuen/visualgos",
         "icon_class": "",
         "name": "VisuAlgos",

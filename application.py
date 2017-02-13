@@ -40,10 +40,6 @@ def blog():
 def resume():
   return application.send_static_file("assets/resume.pdf")
 
-@application.route('/projects/visualgos')
-def visualgos():
-    return current_app.send_static_file('projects/visualgos/index.html')
-
 if __name__ == "__main__":
   application.debug = True
   application.run()
