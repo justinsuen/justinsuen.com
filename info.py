@@ -53,7 +53,7 @@ nav = [
 # TODO: Fill in one or multple description dicts.
 about = [
     {
-        "description": ""
+        "blurb": ""
     }
 ]
 

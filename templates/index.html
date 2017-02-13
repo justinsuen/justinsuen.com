@@ -14,8 +14,8 @@
 <section id="about">
   <div class="about-container">
     <h1>About <span>me.</span></h1>
-    {% for text in about %}
-      <h4>{{ text.description | safe }}</h4>
+    {% for section in about %}
+      <h4>{{ section.blurb | safe }}</h4>
     {% endfor %}
   </div>
 </section>
