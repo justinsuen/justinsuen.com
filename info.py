@@ -64,16 +64,21 @@ projects = [
     {
         "id": "proj1",
         "link": "http://www.chartesian.com",
+        "github": "https://www.github.com/justinsuen/chartesian",
         "icon_class": "",
         "name": "Chartesian",
         "tagline": "Single-page application for data visualization and dynamic charting",
         "image": "static/images/projects/chartesian/build.png",
-        "des": [],
+        "des": ["As the sole developer, I had the liberty to determine both the design and tech stack of Chartesian.",
+                "I envisioned a minimalistic site with intuitive tools, allowing for a simple, yet engaging user experience.",
+                "For the backend, I used Ruby on Rails with PostgreSQL. To manage state efficiently, I used React and Redux for the frontend."],
         "code": ""
     },
     {
         "id": "proj2",
         "link": "http://www.shiparoo.us",
+        "github": "https://github.com/DanielLChang/Shiparoo",
+        "github2": "https://github.com/justinsuen/shiparoo-ios",
         "icon_class": "",
         "name": "Shiparoo",
         "tagline": "Elegant web and mobile package tracking application with realtime SMS updates",
@@ -87,27 +92,18 @@ projects = [
         "icon_class": "",
         "name": "Cafe Hub",
         "tagline": "Automated employee scheduling system built for a simple user experience",
-        "image": "static/images/projects/shiparoo/splash.png",
+        "image": "static/images/projects/visualgos/astar.png",
         "des": [],
         "code": ""
     },
     {
         "id": "proj4",
         "link": "http://www.justinsuen.com/projects/visualgos",
+        "github": "https://www.github.com/justinsuen/visualgos",
         "icon_class": "",
         "name": "VisuAlgos",
         "tagline": "Interactive visualizer for various path-finding algorithms",
-        "image": "static/images/projects/shiparoo/splash.png",
-        "des": [],
-        "code": ""
-    },
-    {
-        "id": "proj5",
-        "link": "http://www.github.com/justinsuen/kidney",
-        "icon_class": "",
-        "name": "Kidney Donation Exchange",
-        "tagline": "A solver to pair kidney donors with recipients under constraints",
-        "image": "static/images/projects/shiparoo/splash.png",
+        "image": "static/images/projects/visualgos/astar.png",
         "des": [],
         "code": ""
     }

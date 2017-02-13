@@ -37,10 +37,24 @@
                 <h2>{{ project.name }}</h2>
               {% endif %}
             </div>
+
             <h3>{{ project.tagline }}</h3>
+
             {% for d in project.des %}
               <p>{{ d }}</p>
             {% endfor %}
+
+            <div class="proj-git-links">
+              {% if project.github %}
+                <a href="{{ project.github }}" class="proj-learn">
+                  <i class="fa fa-github"></i>Learn more</a>
+              {% endif %}
+
+              {% if project.github2 %}
+                <a href="{{ project.github2 }}" class="proj-learn">
+                  <i class="fa fa-github"></i>iOS Repo</a>
+              {% endif %}
+            </div>
           </div>
         </div>
       {% endfor %}
