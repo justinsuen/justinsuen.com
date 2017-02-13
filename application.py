@@ -35,11 +35,14 @@ def blog():
   path = 'static/assets/posts/'
   return render_template("blog.html", blog_posts=construct_blog_posts(path), **layout_args)
 
-
 @application.route("/resume")
 @application.route("/resume.pdf")
 def resume():
   return application.send_static_file("assets/resume.pdf")
+
+@application.route('/projects/visualgos')
+def visualgos():
+    return current_app.send_static_file('projects/visualgos/index.html')
 
 if __name__ == "__main__":
   application.debug = True
