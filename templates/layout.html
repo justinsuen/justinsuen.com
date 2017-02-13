@@ -24,17 +24,17 @@
   <link href="static/css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="{{ meta.icon_path }}">
 
-  <script src="static/js/jquery.js"></script>
-  <script src="static/js/main.js"></script>
+  <script src="static/js/jquery.js" defer></script>
+  <script src="static/js/main.js" defer></script>
 </head>
 
 <body>
   <nav id="navbar">
-    <a class="navbar-brand" href="index.html">Justin Suen</a>
+    <a class="navbar-brand smoothscroll" href="#splash">Justin Suen</a>
 
     <div class="navbar-links">
       {% for nav in navigation %}
-      <a href="{{ nav.link }}" class="navbar-item" data-scroll="{{ nav.name }}">
+      <a href="{{ nav.link }}" class="navbar-item smoothscroll" data-scroll="{{ nav.name }}">
         {{ nav.name }}
       </a>
       {% endfor %}

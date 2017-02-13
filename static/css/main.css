@@ -264,7 +264,7 @@ a {
 }
 
 .project-item-header h2 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .project-item-header a {
@@ -277,6 +277,10 @@ a {
   transition: color 0.3s ease;
 }
 
+.project-item-description h3 {
+  font-size: 1.5em;
+}
+
 .project-item-description p {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
