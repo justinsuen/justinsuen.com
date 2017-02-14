@@ -43,7 +43,7 @@ section {
   z-index: 1;
 
   opacity:0.3;
-  background-color: transparent;
+  background-color: white;
   transition: background-color 0.6s ease;
 }
 
@@ -189,7 +189,6 @@ a {
 
 #about {
   width: 100vw;
-  height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -201,7 +200,6 @@ a {
 .about-container {
   width: 80vw;
   padding-top: 100px;
-  height: 100%;
 }
 
 .about-container h1 {
@@ -214,18 +212,131 @@ a {
   color: #229BE8;
 }
 
-.about-container h4 {
-  font-weight: 500;
-  font-size: 1.7em;
-  line-height: 1.5em;
-
-  padding: 0 30px;
-  margin-bottom: 40px;
+.about-container h2 {
+  font-weight: 700;
+  font-size: 2.8em;
+  margin-bottom: 20px;
 }
 
-.about-container h4 span {
+.blurb-container {
+  margin-bottom: 50px;
+  padding: 30px 50px;
+  width: 100%;
+
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid #E2E2E2;
+
+  text-align: center;
+}
+
+.blurb-container h4 {
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+
+.blurb-container h4 span {
   font-weight: 600;
   color: #39DA5E;
+}
+
+.ex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*About - education*/
+
+.ed-container {
+  width: 49%;
+}
+
+.ed-item {
+  position: relative;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+
+  background-color: white;
+  border: 1px solid #E2E2E2;
+}
+
+.ed-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ed-item-header h3 {
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+
+.ed-item-header h4 {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.ed-item p {
+  font-size: 1.2em;
+}
+
+.ed-item .info-show {
+  position: relative;
+
+	width: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s, margin-top 0.8s ease;
+
+}
+
+.ed-item:hover > .info-show {
+  margin-top: 10px;
+  max-height: 1000px;
+  transition: max-height 0.5s, margin-top 0.3s ease;
+}
+
+.ed-item .info-show h4 {
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.ed-item .info-show p {
+  font-size: 1.1em;
+}
+
+.ed-item .course-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #757575;
+}
+
+.work-role {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.work-role:last-of-type {
+  margin-bottom: 0;
+}
+
+.work-role h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.work-role p {
+  font-size: 1em;
+  color: #757575;
 }
 
 /*Projects section*/
@@ -275,12 +386,6 @@ a {
   background-color: white;
 
   border: 1px solid #E2E2E2;
-  transition: border 0.3s ease;
-}
-
-.project-item:hover {
-  border: 1px solid #757575;
-  transition: border 0.3s ease;
 }
 
 .project-item-img {
@@ -400,4 +505,18 @@ a {
   font-weight: 500;
   font-size: 1.8em;
   margin-bottom: 10px;
+}
+
+/*Footer*/
+#footer {
+  width: 100vw;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: white;
+  border-top: 1px solid #E2E2E2;
 }

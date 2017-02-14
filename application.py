@@ -18,7 +18,9 @@ Markdown(application)
 layout_args = {
     "meta": info.meta,
     "navigation": info.nav,
-    "splash": info.splash
+    "splash": info.splash,
+    "education": info.education,
+    "work": info.work
 }
 
 

@@ -14,9 +14,47 @@
 <section id="about">
   <div class="about-container">
     <h1>About <span>me.</span></h1>
-    {% for section in about %}
+    <div class="blurb-container">
+      {% for section in about %}
       <h4>{{ section.blurb | safe }}</h4>
-    {% endfor %}
+      {% endfor %}
+    </div>
+    <div class="ex-container">
+      <div class="ed-container">
+        <h2>Education</h2>
+        {% for school in education %}
+        <div class="ed-item">
+          <div class="ed-item-header">
+            <h3>{{ school.name }}</h3>
+            <h4>{{ school.date }}</h4>
+          </div>
+          <p>{{ school.field }}</p>
+          <div class="info-show">
+            <h4>Curriculum Highlights</h4>
+            <div class="course-list">
+              <p>{{ school.courses }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="ed-container">
+        <h2>Work</h2>
+        {% for comp in work %}
+        <div class="ed-item">
+          <div class="ed-item-header">
+            <h3>{{ comp.name }}</h3>
+          </div>
+          {% for r in comp.role %}
+          <div class="work-role">
+            <h4>{{ r }}</h4>
+            <p>{{ comp.date[loop.index-1] }}</p>
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 <section id="projects">
@@ -74,6 +112,5 @@
   </div>
 </section>
 <section id="footer">
-
 </section>
 {% endblock %}

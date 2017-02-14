@@ -57,6 +57,39 @@ about = [
     }
 ]
 
+skills = {
+    "blurb": "Here's a list of technologies I work with and/or currently learning. I'm always eager to learn new technologies and implement them in different projects."
+    "list": []
+}
+
+education = [
+    {
+        "name": "University of California, Berkeley",
+        "field": "B.A. in Mathematics",
+        "date": "Aug '12 - May '16",
+        "courses": "Efficient Algorithms, Data Structures, Numerical Analysis, Optimization, Linear Algebra, Computing with Data, Probability"
+    },
+    {
+        "name": "Independent study",
+        "field": "",
+        "date": "Whenever!",
+        "courses": "Efficient Algorithms, Data Structures, Numerical Analysis, Optimization, Linear Algebra, Computing with Data, Probability"
+    }
+]
+
+work = [
+    {
+        "name": "UC Berkeley Educational Technology Services",
+        "role": ["Web Developer", "Scheduler", "Computer Consultant"],
+        "date": ["Feb '17 - now", "Jun '14 - now", "Aug '13 - Nov' 16"]
+    },
+    {
+        "name": "Emperor Capital Group",
+        "role": ["Summer Intern"],
+        "date": ["Jun '15 - Aug '15"]
+    }
+]
+
 # TODO: Fill in one or multiple project dicts. The code field executes any html/js you specify.
 #       icon_class is a font-awesome icon and any other classes you might want to specify (see css).
 #       For layout purposes, the code field is optional.

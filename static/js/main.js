@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 
     // Get background overlay to change color
     if ($("#splash").position().top <= windscroll + 150) {
-      $(".overlay").css('background-color', 'transparent');
+      $(".overlay").css('background-color', 'white');
       $("#navbar").css('padding', '50px 60px 30px 60px');
     }
 
