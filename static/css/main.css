@@ -252,6 +252,7 @@ a {
 
 .ed-container {
   width: 49%;
+  margin-bottom: 30px;
 }
 
 .ed-container small {
@@ -320,6 +321,18 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   color: #757575;
+}
+
+@media only screen and (max-width: 1400px) {
+  .ex-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .ed-container {
+    width: 100%;
+  }
 }
 
 /*About - work*/
@@ -536,6 +549,30 @@ a {
   transition: background-color 0.3s ease;
 }
 
+@media only screen and (max-width: 1400px) {
+  .project-item {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .project-item-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-item-description {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-item-description p {
+    display: none;
+  }
+}
+
 /*Contact section*/
 #contact {
   width: 100vw;
@@ -603,7 +640,8 @@ a {
 
   border: 1px solid #424242;
   color: #424242;
-  transition: border 0.3s ease;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .footer-container .proj-learn i {
@@ -613,6 +651,25 @@ a {
 
 .footer-container a.proj-learn:hover {
   border: 1px solid #757575;
-  color: #757575;
-  transition: color 0.3s ease, border 0.3s ease;
+  background-color: #75D0ED;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h4 {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .footer-container a.proj-learn {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
 }
