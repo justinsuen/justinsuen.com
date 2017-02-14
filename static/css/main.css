@@ -571,13 +571,48 @@ a {
 /*Footer*/
 #footer {
   width: 100vw;
-  height: 100px;
+  height: 150px;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 20px 50px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
 
-  background-color: white;
-  border-top: 1px solid #E2E2E2;
+.footer-container h4 {
+  width: 80%;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.footer-container a.proj-learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-right: 15px;
+  padding: 10px;
+
+  border: 1px solid #424242;
+  color: #424242;
+  transition: border 0.3s ease;
+}
+
+.footer-container .proj-learn i {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.footer-container a.proj-learn:hover {
+  border: 1px solid #757575;
+  color: #757575;
+  transition: color 0.3s ease, border 0.3s ease;
 }
