@@ -18,6 +18,25 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, div {
   -webkit-text-size-adjust: none;
 }
 
+html {
+  font-size: 100%;
+  transition: font-size 1s ease;
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 80%;
+    transition: font-size 1s ease;
+  }
+}
+
+@media only screen and (max-width: 800px) and (max-height: 700px) {
+  html {
+    font-size: 50%;
+    transition: font-size 1s ease;
+  }
+}
+
 body {
   width: 100vw;
 
@@ -102,6 +121,16 @@ a {
 	position: relative;
 }
 
+@media only screen and (max-width: 800px) and (max-height: 700px) {
+  .navbar-links {
+    flex-wrap: wrap;
+  }
+
+  .navbar-links a {
+    margin-right: 0 10px 10px 0;
+  }
+}
+
 .navbar-links a:hover, .navbar-links a.active {
   color: #DAA520;
   transition: color .5s ease;
@@ -135,6 +164,7 @@ a {
 
 .splash-container {
   width: 80vw;
+  padding-top: 100px;
 }
 
 .splash-container h1 {
@@ -228,6 +258,12 @@ a {
   border: 1px solid #E2E2E2;
 
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .blurb-container {
+    padding: 15px 25px;
+  }
 }
 
 .blurb-container h4 {
@@ -413,6 +449,12 @@ a {
   padding: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+  .skill-list-container {
+    padding: 15px;
+  }
+}
+
 /*Projects section*/
 
 #projects {
@@ -564,6 +606,12 @@ a {
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project-item {
+    padding: 15px;
   }
 }
 
