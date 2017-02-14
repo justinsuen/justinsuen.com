@@ -651,7 +651,7 @@ a {
 
 .footer-container a.proj-learn:hover {
   border: 1px solid #757575;
-  background-color: #75D0ED;
+  background-color: #DAA520;
   color: black;
   transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
