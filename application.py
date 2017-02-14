@@ -20,7 +20,8 @@ layout_args = {
     "navigation": info.nav,
     "splash": info.splash,
     "education": info.education,
-    "work": info.work
+    "work": info.work,
+    "skills": info.skills
 }
 
 

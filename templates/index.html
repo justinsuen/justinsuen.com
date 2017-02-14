@@ -21,7 +21,7 @@
     </div>
     <div class="ex-container">
       <div class="ed-container">
-        <h2>Education</h2>
+        <h2>Education <small>(hover to see courses)</small></h2>
         {% for school in education %}
         <div class="ed-item">
           <div class="ed-item-header">
@@ -30,7 +30,7 @@
           </div>
           <p>{{ school.field }}</p>
           <div class="info-show">
-            <h4>Curriculum Highlights</h4>
+            <h4>Relevant Courses</h4>
             <div class="course-list">
               <p>{{ school.courses }}</p>
             </div>
@@ -53,6 +53,20 @@
           {% endfor %}
         </div>
         {% endfor %}
+      </div>
+    </div>
+    <div class="skill-container">
+      <h2>Skills</h2>
+      <div class="skill-list-container">
+        <div class="skill-list-header">
+          <h3>Technology</h3>
+          <h4>I'll always be adding to this list!</h4>
+        </div>
+        <div class="tech-list">
+          {% for skill in skills.tech %}
+          <i class="{{ skill }}"></i>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

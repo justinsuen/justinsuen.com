@@ -58,8 +58,27 @@ about = [
 ]
 
 skills = {
-    "blurb": "Here's a list of technologies I work with and/or currently learning. I'm always eager to learn new technologies and implement them in different projects."
-    "list": []
+    "tech": [
+        "devicon-amazonwebservices-plain-wordmark colored",
+        "devicon-cplusplus-plain colored",
+        "devicon-css3-plain-wordmark colored",
+        "devicon-d3js-plain colored",
+        "devicon-django-plain colored",
+        "devicon-git-plain-wordmark colored",
+        "devicon-github-plain-wordmark colored",
+        "devicon-heroku-original-wordmark colored",
+        "devicon-html5-plain-wordmark colored",
+        "devicon-java-plain-wordmark colored",
+        "devicon-javascript-plain colored",
+        "devicon-jquery-plain-wordmark colored",
+        "devicon-mysql-plain-wordmark colored",
+        "devicon-nodejs-plain-wordmark colored",
+        "devicon-postgresql-plain-wordmark colored",
+        "devicon-python-plain-wordmark colored",
+        "devicon-rails-plain-wordmark colored",
+        "devicon-react-original-wordmark colored",
+        "devicon-ruby-plain-wordmark colored"
+    ]
 }
 
 education = [
@@ -70,10 +89,10 @@ education = [
         "courses": "Efficient Algorithms, Data Structures, Numerical Analysis, Optimization, Linear Algebra, Computing with Data, Probability"
     },
     {
-        "name": "Independent study",
+        "name": "Independent Study",
         "field": "",
         "date": "Whenever!",
-        "courses": "Efficient Algorithms, Data Structures, Numerical Analysis, Optimization, Linear Algebra, Computing with Data, Probability"
+        "courses": "Introduction to Data Science, Artificial Intelligence (via edX); Data Science and Analytics (via DataQuest.io); Machine Learning (via Coursera)"
     }
 ]
 
