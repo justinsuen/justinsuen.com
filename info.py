@@ -1,10 +1,11 @@
 # TODO: Fill in meta tags.
 meta = {
-    "title": "Justin Suen | Software Engineer",
+    "title": "Justin Suen. Software Engineer.",
     "author": "Justin Suen",
-    "description": "Justin Suen's personal web portfolio",
+    "description": "I am Justin Suen. Software Engineer with a mission to visualize data and educate through software.",
     "url": "http://www.justinsuen.com",
     "icon_path": "static/images/ico/favicon.ico",
+    "image_path": "http://www.justinsuen.com/static/images/ico/favicon.png",
     "keywords": ""
 }
 
