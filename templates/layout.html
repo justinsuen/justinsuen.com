@@ -34,14 +34,17 @@
   <nav id="navbar">
     <a class="navbar-brand smoothscroll" href="#splash">Justin Suen</a>
 
-    <div class="navbar-links">
+    <div class="navbar-links hide">
       {% for nav in navigation %}
       <a href="{{ nav.link }}" class="navbar-item smoothscroll" data-scroll="{{ nav.name }}">
         {{ nav.name }}
       </a>
       {% endfor %}
     </div>
+
+    <a href="javascript:void(0);" class="navbar-icon" onclick="navShow()">&#9776;</a>
   </nav>
+
   {% block content %} {% endblock %}
 </body>
 

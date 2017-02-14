@@ -38,3 +38,7 @@ jQuery(document).ready(function($) {
     }
   });
 });
+
+function navShow() {
+  $('.navbar-links').toggleClass('hide');
+}
