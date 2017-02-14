@@ -10,20 +10,20 @@ jQuery(document).ready(function($) {
 
     // Get background overlay to change color
     if ($("#splash").position().top <= windscroll + 150) {
-      $(".overlay").css('background-color', 'white');
+      // $(".overlay").css('background-color', 'white');
       $("#navbar").css('padding', '50px 60px 30px 60px');
     }
 
     if ($("#about").position().top <= windscroll + 400) {
       $("#navbar").css('padding', '10px 60px');
-      $(".overlay").css('background-color', '#B8F2FF');
+      // $(".overlay").css('background-color', '#B8F2FF');
     }
 
-    if ($("#projects").position().top <= windscroll + 150)
-      $(".overlay").css('background-color', '#B5FF75');
-
-    if ($("#contact").position().top <= windscroll + 150)
-      $(".overlay").css('background-color', '#FEF284');
+    // if ($("#projects").position().top <= windscroll + 150)
+    //   $(".overlay").css('background-color', '#B5FF75');
+    //
+    // if ($("#contact").position().top <= windscroll + 150)
+    //   $(".overlay").css('background-color', '#FEF284');
   });
 
   $('a.smoothscroll').click(function() {
