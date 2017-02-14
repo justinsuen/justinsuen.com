@@ -5,7 +5,7 @@ Link hover blue: #75D0ED;
 Dark gray: #424242;
 Light gray: #757575;
 Lightest gray: #E2E2E2;
-Navbar green: #00D12E;
+Navbar goldenrod: #DAA520;
 */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Roboto:400');
@@ -103,7 +103,7 @@ a {
 }
 
 .navbar-links a:hover, .navbar-links a.active {
-  color: #00D12E;
+  color: #DAA520;
   transition: color .5s ease;
 }
 
@@ -118,7 +118,7 @@ a {
 }
 .navbar-links a:hover:after, .navbar-links a.active:after {
 	width: 100%;
-	background: #00D12E;
+	background: #DAA520;
 }
 
 /*Landing section*/
@@ -181,7 +181,7 @@ a {
 }
 
 .presence-container a.presence-item:hover {
-  color: #00D12E;
+  color: #DAA520;
   transition: color 0.3s ease;
 }
 
