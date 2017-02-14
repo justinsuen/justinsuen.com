@@ -4,7 +4,7 @@ meta = {
     "author": "Justin Suen",
     "description": "Justin Suen's personal web portfolio",
     "url": "http://www.justinsuen.com",
-    "icon_path": "",
+    "icon_path": "static/images/ico/favicon.ico",
     "keywords": ""
 }
 
