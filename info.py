@@ -43,11 +43,11 @@ nav = [
     {
         "name": "resume",
         "link": "resume"
-    },
-    {
-        "name": "blog",
-        "link": "blog"
     }
+    # {
+    #     "name": "blog",
+    #     "link": "blog"
+    # }
 ]
 
 # TODO: Fill in one or multple description dicts.
