@@ -140,7 +140,7 @@ a {
 
   .navbar-links {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
     margin-left: 0px;
     padding-top: 10px;
@@ -151,7 +151,7 @@ a {
   }
 
   .navbar-links a {
-    margin: 0 10px 10px 0;
+    margin: 0 15px 15px 0;
   }
 }
 
@@ -318,6 +318,12 @@ a {
 .ed-container small {
   color: #757575;
   font-size: 0.4em;
+}
+
+@media only screen and (max-width: 600px) {
+  .ed-container small {
+    display: none;
+  }
 }
 
 .ed-item {

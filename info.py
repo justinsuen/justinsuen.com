@@ -54,7 +54,7 @@ nav = [
 # TODO: Fill in one or multple description dicts.
 about = [
     {
-        "blurb": "Our world is filled with <span>information and data,</span> yet these resources are often underutilized or misunderstood in so many ways. As a software engineer, my mission is to <span>build functional, and visually appealing</span> software to promote a deeper understanding of the world we live in."
+        "blurb": "As a software engineer, my mission is to <span>build functional, and visually appealing</span> software to promote a deeper understanding of the world we live in. Our world is filled with <span>information and data,</span> yet these resources are often underutilized or misunderstood in so many ways."
     }
 ]
 
