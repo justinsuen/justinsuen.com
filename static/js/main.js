@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
     }
   });
 
-  $('.mobile-navbar-links a').on('click touchend', function() {
+  $('.mobile-navbar-links a.navbar-item').on('click touchend', function() {
     $('.mobile-navbar-links').toggleClass('hide');
   });
 });
