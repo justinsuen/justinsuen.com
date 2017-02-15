@@ -92,7 +92,7 @@ education = [
     {
         "name": "Independent Study",
         "field": "",
-        "date": "Whenever!",
+        "date": "",
         "courses": "Introduction to Data Science, Artificial Intelligence (via edX); Data Science and Analytics (via DataQuest.io); Machine Learning (via Coursera)"
     }
 ]

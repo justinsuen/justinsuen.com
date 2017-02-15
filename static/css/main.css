@@ -171,29 +171,51 @@ a {
     font-size: 3.2em;
     color: #229BE8;
   }
-
-  .hide {
-    display: none;
-  }
 }
 
-.navbar-item:hover, .navbar-item.active {
+.hide {
+  display: none;
+}
+
+.navbar-item.active {
   color: #F1912E;
   transition: color .5s ease;
 }
 
 .navbar-item:after, .navbar-item.active:after {
-	content: '';
-	display: block;
-	margin-top: 3px;
-	height: 2px;
-	width: 0px;
-	background: transparent;
-	transition: width .3s ease, background-color .3s ease;
+  content: '';
+  display: block;
+  margin-top: 3px;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width .3s ease, background-color .3s ease;
 }
-.navbar-item:hover:after, .navbar-item.active:after {
-	width: 100%;
-	background: #F1912E;
+
+.navbar-item.active:after {
+  width: 100%;
+  background: #F1912E;
+}
+
+@media only screen and (min-width: 800px) {
+  .navbar-item:hover, .navbar-item.active {
+    color: #F1912E;
+    transition: color .5s ease;
+  }
+
+  .navbar-item:after, .navbar-item.active:after {
+  	content: '';
+  	display: block;
+  	margin-top: 3px;
+  	height: 2px;
+  	width: 0px;
+  	background: transparent;
+  	transition: width .3s ease, background-color .3s ease;
+  }
+  .navbar-item:hover:after, .navbar-item.active:after {
+  	width: 100%;
+  	background: #F1912E;
+  }
 }
 
 /*Landing section*/
