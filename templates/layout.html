@@ -34,7 +34,7 @@
   <nav id="navbar">
     <a class="navbar-brand smoothscroll" href="#splash">Justin Suen</a>
 
-    <div class="navbar-links hide">
+    <div class="navbar-links">
       {% for nav in navigation %}
       <a href="{{ nav.link }}" class="navbar-item smoothscroll" data-scroll="{{ nav.name }}">
         {{ nav.name }}
@@ -44,6 +44,16 @@
 
     <a href="javascript:void(0);" class="navbar-icon" onclick="navShow()">&#9776;</a>
   </nav>
+
+  <div class="mobile-navbar-links hide">
+    {% for nav in navigation %}
+    <a href="{{ nav.link }}" class="navbar-item smoothscroll" data-scroll="{{ nav.name }}">
+      {{ nav.name }}
+    </a>
+    {% endfor %}
+
+    <a href="javascript:void(0);" class="navbar-icon-close" onclick="navShow()"><i class="fa fa-times"></i></a>
+  </div>
 
   {% block content %} {% endblock %}
 </body>

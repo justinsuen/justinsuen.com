@@ -3,8 +3,8 @@ jQuery(document).ready(function($) {
     var windscroll = $(document).scrollTop();
     $('body section').each(function(i, obj) {
       if ($(obj).position().top <= windscroll + 150) {
-        $('.navbar-links a.active').removeClass('active');
-        $('.navbar-links a[data-scroll=' + obj.id + ']').addClass('active');
+        $('.navbar-item.active').removeClass('active');
+        $('.navbar-item[data-scroll=' + obj.id + ']').addClass('active');
       }
     });
 
@@ -40,5 +40,5 @@ jQuery(document).ready(function($) {
 });
 
 function navShow() {
-  $('.navbar-links').toggleClass('hide');
+  $('.mobile-navbar-links').toggleClass('hide');
 }
