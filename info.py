@@ -2,7 +2,7 @@
 meta = {
     "title": "Justin Suen. Software Engineer.",
     "author": "Justin Suen",
-    "description": "I am Justin Suen. Software Engineer with a mission to visualize data and educate through software.",
+    "description": "I am Justin Suen. Software Engineer with a mission to visualize data and educate others through software.",
     "url": "http://www.justinsuen.com",
     "icon_path": "static/images/ico/favicon.ico",
     "image_path": "http://www.justinsuen.com/static/images/ico/favicon.png",
@@ -54,7 +54,7 @@ nav = [
 # TODO: Fill in one or multple description dicts.
 about = [
     {
-        "blurb": "As a software engineer, my mission is to <span>build functional, and visually appealing</span> software to promote a deeper understanding of the world we live in. Our world is filled with <span>information and data,</span> yet these resources are often underutilized or misunderstood in so many ways."
+        "blurb": "As a software engineer, my mission is to <span>build functional, and visually appealing</span> software to promote a deeper understanding of the world we live in. Our world is filled with <span>information and data,</span> yet these resources are often underutilized or misunderstood in so many ways. I strive to bring meaning and understanding from these resources to others."
     }
 ]
 
