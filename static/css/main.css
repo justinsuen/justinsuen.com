@@ -423,6 +423,13 @@ a {
   transition: max-height 0.5s, margin-top 0.3s ease;
 }
 
+@media only screen and (max-width: 800px) {
+  .ed-item > .info-show {
+    margin-top: 10px;
+    max-height: 1000px;
+  }
+}
+
 .ed-item .info-show h4 {
   font-weight: 500;
   font-size: 1.3em;
