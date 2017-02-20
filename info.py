@@ -136,7 +136,7 @@ projects = [
         "tagline": "Elegant web and mobile package tracking with realtime SMS updates",
         "image": "static/images/projects/shiparoo/splash.png",
         "des": ["Working in a team of three, we built Shiparoo with a focus on simplicity and functionality. We built Shiparoo on Rails with PostgreSQL, React, Redux, and React Native for iOS.",
-                "My main responsibilities included user authentication, mobile API calls, and cross-platform styling."],
+                "I configured and deployed the app through AWS ElasticBeanstalk. My main responsibilities included user authentication, mobile API calls, and cross-platform styling."],
         "code": ""
     },
     {
