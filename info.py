@@ -54,7 +54,7 @@ nav = [
 # TODO: Fill in one or multple description dicts.
 about = [
     {
-        "blurb": "As a software engineer, my mission is to <span>build functional, and visually appealing</span> software to promote a deeper understanding of the world we live in. Our world is filled with <span>information and data,</span> yet these resources are often underutilized or misunderstood in so many ways. I strive to <span>bring meaning and understanding</span> from these resources to others."
+        "blurb": "As a software engineer, my mission is to <span>build functional and visually appealing</span> software to promote a deeper understanding of the world we live in. Our world is filled with <span>information and data,</span> yet these resources are often underutilized or misunderstood in so many ways. I strive to <span>bring meaning and understanding</span> from these resources to others."
     }
 ]
 
@@ -141,7 +141,7 @@ projects = [
     },
     {
         "id": "proj-algo",
-        "link": "https://visualgos.herokuapp.com/",
+        "link": "https://justinsuen.github.io/visualgos",
         "github": "https://www.github.com/justinsuen/visualgos",
         "icon_class": "",
         "name": "VisuAlgos",
