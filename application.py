@@ -31,12 +31,12 @@ layout_args = {
 def index():
   return render_template("index.html",  about=info.about, projects=info.projects, **layout_args)
 
-
-@application.route("/blog")
-@application.route("/blog.html")
-def blog():
-  path = 'static/assets/posts/'
-  return render_template("blog.html", blog_posts=construct_blog_posts(path), **layout_args)
+### No blog yet!
+# @application.route("/blog")
+# @application.route("/blog.html")
+# def blog():
+#   path = 'static/assets/posts/'
+#   return render_template("blog.html", blog_posts=construct_blog_posts(path), **layout_args)
 
 @application.route("/resume")
 @application.route("/resume.pdf")
